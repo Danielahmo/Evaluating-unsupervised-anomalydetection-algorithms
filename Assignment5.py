@@ -354,8 +354,9 @@ cd_df.to_csv('CD_DF.csv')
 
 CD = pd.read_csv('CD_DF.csv', index_col=0).rename(columns = {'folder_name': 'dataset_name', 'Classifier' :'classifier_name', 'auc':'accuracy'})
 
-
-"""##Github program"""
+##############################################################################################################
+####################################### CRITICAL DIFFERENCE DIAGRAM ##########################################
+"""Program obtained from https://github.com/hfawaz/cd-diagram for computing the critical difference diagram"""
 
 import matplotlib
 
